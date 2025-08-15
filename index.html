@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>Typing Speed Test</h1>
+            <p>How fast can you type? Let's find out!</p>
+        </header>
+
+        <!-- Time Selection -->
+        <div id="time-selection" class="time-selection">
+            <button class="time-btn" data-time="30">30s</button>
+            <button class="time-btn active" data-time="60">60s</button>
+            <button class="time-btn" data-time="90">90s</button>
+        </div>
+
+        <!-- Stats Display -->
+        <div id="stats" class="stats-container">
+            <div class="stat-box">
+                <p class="stat-label">Time</p>
+                <p id="timer" class="stat-value timer-value">60</p>
+            </div>
+            <div class="stat-box">
+                <p class="stat-label">WPM</p>
+                <p id="wpm" class="stat-value">0</p>
+            </div>
+            <div class="stat-box">
+                <p class="stat-label">Accuracy</p>
+                <p id="accuracy" class="stat-value">100%</p>
+            </div>
+             <div class="stat-box">
+                <p class="stat-label">Characters</p>
+                <p id="chars" class="stat-value">0/0</p>
+            </div>
+        </div>
+
+        <!-- Text Display Area -->
+        <div id="text-container" class="text-container">
+            <div id="caret" class="caret"></div>
+            <div id="text-to-type"></div>
+            <textarea id="input-area" class="input-area" spellcheck="false" autocorrect="off" autocapitalize="off"></textarea>
+        </div>
+        
+        <!-- Restart button for during the test -->
+        <div class="restart-container">
+             <button id="restart-test-btn" class="restart-btn">
+                Restart
+            </button>
+        </div>
+    </div>
+
+    <!-- Results Modal -->
+    <div id="results-modal" class="modal-backdrop hidden">
+        <div class="modal-content">
+            <h2>Test Complete!</h2>
+            <div class="modal-stats">
+                <div>
+                    <p class="stat-label">WPM</p>
+                    <p id="final-wpm" class="modal-stat-value">0</p>
+                </div>
+                <div>
+                    <p class="stat-label">Accuracy</p>
+                    <p id="final-accuracy" class="modal-stat-value">100%</p>
+                </div>
+            </div>
+            <button id="restart-btn" class="modal-restart-btn">
+                Try Again
+            </button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Created by Shashikant Kumar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
