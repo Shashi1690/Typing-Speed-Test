@@ -1,4 +1,4 @@
-# Typing Speed Test Website
+# [Typing Speed Test Website](https://shashi1690.github.io/Typing-Speed-Test/)
 
 A clean, responsive, and interactive web application built to test and measure typing speed and accuracy. This project is created with vanilla HTML, CSS, and JavaScript, focusing on a straightforward user experience and clear, manageable code.
 ## Features
