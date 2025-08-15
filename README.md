@@ -25,11 +25,11 @@ A clean, responsive, and interactive web application built to test and measure t
 
 ## Technologies Used
 
-   - HTML5: For the core structure and content of the website.
+   - <img src="https://github.com/Shashi1690/Random/blob/main/html.webp" alt="logo" width="25" height="25"> HTML5: For the core structure and content of the website.
 
-   - CSS3: For all styling, layout, and animations. The design is custom-coded to be modern and user-friendly without relying on external frameworks.
+   - <img src="https://github.com/Shashi1690/Random/blob/main/css.svg" alt="logo" width="25" height="25"> CSS3: For all styling, layout, and animations. The design is custom-coded to be modern and user-friendly without relying on external frameworks.
 
-   - JavaScript (ES6+): For all the application logic, including the timer, WPM/accuracy calculations, event handling, and DOM manipulation.
+   - <img src="https://github.com/Shashi1690/Random/blob/main/Java%20Script.png" alt="logo" width="25" height="25"> JavaScript (ES6+): For all the application logic, including the timer, WPM/accuracy calculations, event handling, and DOM manipulation.
 
 ## How to Use
 
@@ -46,5 +46,9 @@ A clean, responsive, and interactive web application built to test and measure t
 
 - That's it! The project has no external dependencies and runs directly in any modern web browser.
 Credits
+
+### Here is the webpage:
+[Typing Speed Test](https://shashi1690.github.io/Typing-Speed-Test/)
+[![Alt Text](https://github.com/Shashi1690/Random/blob/main/Screenshot%202025-08-15%20125445.png)](https://github.com/Shashi1690/Random/blob/main/Screenshot%202025-08-15%20125445.png)
 
 ## This project was created by Shashikant Kumar.
